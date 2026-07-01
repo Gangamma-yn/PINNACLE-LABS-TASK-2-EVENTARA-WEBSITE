@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventara - Contact Us</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="logo">
+            <h2>Eventara</h2>
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="register.html">Register</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+        </nav>
+
+        <button id="themeToggle">
+            <i class="fas fa-moon"></i>
+        </button>
+    </header>
+
+    <!-- Banner -->
+    <section class="page-banner">
+        <h1>Contact Us</h1>
+        <p>We would love to hear from you.</p>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section">
+
+        <div class="contact-container">
+
+            <!-- Contact Info -->
+            <div class="contact-info">
+
+                <h2>Get In Touch</h2>
+
+                <div class="info-box">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <div>
+                        <h4>Address</h4>
+                        <p>Bangalore, Karnataka, India</p>
+                    </div>
+                </div>
+
+                <div class="info-box">
+                    <i class="fas fa-phone"></i>
+                    <div>
+                        <h4>Phone</h4>
+                        <p>+91 98765 43210</p>
+                    </div>
+                </div>
+
+                <div class="info-box">
+                    <i class="fas fa-envelope"></i>
+                    <div>
+                        <h4>Email</h4>
+                        <p>info@eventara.com</p>
+                    </div>
+                </div>
+
+                <div class="info-box">
+                    <i class="fas fa-clock"></i>
+                    <div>
+                        <h4>Working Hours</h4>
+                        <p>Mon - Sat : 9:00 AM - 6:00 PM</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Contact Form -->
+            <div class="contact-form">
+
+                <h2>Send Message</h2>
+
+                <form id="contactForm">
+
+                    <div class="input-group">
+                        <input
+                            type="text"
+                            id="contactName"
+                            placeholder="Your Name"
+                            required>
+                    </div>
+
+                    <div class="input-group">
+                        <input
+                            type="email"
+                            id="contactEmail"
+                            placeholder="Your Email"
+                            required>
+                    </div>
+
+                    <div class="input-group">
+                        <input
+                            type="text"
+                            id="contactSubject"
+                            placeholder="Subject"
+                            required>
+                    </div>
+
+                    <div class="input-group">
+                        <textarea
+                            id="contactMessage"
+                            rows="6"
+                            placeholder="Your Message"
+                            required></textarea>
+                    </div>
+
+                    <button type="submit" class="submit-btn">
+                        Send Message
+                    </button>
+
+                </form>
+
+                <div id="contactSuccess" class="success-message">
+                    Message Sent Successfully! ✅
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section">
+
+        <h2>Frequently Asked Questions</h2>
+
+        <div class="faq-container">
+
+            <div class="faq-item">
+                <h3>How do I register for an event?</h3>
+                <p>
+                    Visit the Register page, fill out the form,
+                    and submit your details.
+                </p>
+            </div>
+
+            <div class="faq-item">
+                <h3>Do I receive a confirmation?</h3>
+                <p>
+                    Yes, your registration details will be stored
+                    and confirmed after submission.
+                </p>
+            </div>
+
+            <div class="faq-item">
+                <h3>Can I attend multiple events?</h3>
+                <p>
+                    Absolutely! You can register for any event
+                    listed on our platform.
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Footer -->
+    <footer>
+
+        <div class="footer-content">
+
+            <div>
+                <h3>Eventara</h3>
+                <p>Smart Event Management Platform</p>
+            </div>
+
+            <div>
+                <h3>Quick Links</h3>
+                <p><a href="index.html">Home</a></p>
+                <p><a href="events.html">Events</a></p>
+                <p><a href="register.html">Register</a></p>
+                <p><a href="contact.html">Contact</a></p>
+            </div>
+
+            <div>
+                <h3>Follow Us</h3>
+
+                <div class="social-icons">
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-linkedin"></i>
+                    <i class="fab fa-twitter"></i>
+                </div>
+            </div>
+
+        </div>
+
+        <p class="copyright">
+            © 2026 Eventara. All Rights Reserved.
+        </p>
+
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

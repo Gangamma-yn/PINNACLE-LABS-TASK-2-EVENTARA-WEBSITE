@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventara - Events</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="logo">
+            <h2>Eventara</h2>
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="events.html" class="active">Events</a></li>
+                <li><a href="register.html">Register</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+
+        <button id="themeToggle">
+            <i class="fas fa-moon"></i>
+        </button>
+    </header>
+
+    <!-- Page Banner -->
+    <section class="page-banner">
+        <h1>Upcoming Events</h1>
+        <p>Discover exciting events happening around you.</p>
+    </section>
+
+    <!-- Search Section -->
+    <section class="search-section">
+        <input
+            type="text"
+            id="searchInput"
+            placeholder="Search events..."
+            onkeyup="searchEvents()">
+    </section>
+
+    <!-- Events Grid -->
+    <section class="events-page">
+
+        <div class="event-card search-item">
+            <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=600" alt="Tech Fest">
+            <div class="event-info">
+                <h3>Tech Fest 2026</h3>
+                <p>📅 15 Aug 2026</p>
+                <p>📍 Bangalore</p>
+                <p>Technology, Coding & Innovation Event.</p>
+                <a href="register.html" class="card-btn">Register Now</a>
+            </div>
+        </div>
+
+        <div class="event-card search-item">
+            <img src="https://images.unsplash.com/photo-1492684223066-81342ee5ff30?w=600" alt="Music Festival">
+            <div class="event-info">
+                <h3>Music Carnival</h3>
+                <p>📅 25 Aug 2026</p>
+                <p>📍 Mumbai</p>
+                <p>Live music performances from top artists.</p>
+                <a href="register.html" class="card-btn">Register Now</a>
+            </div>
+        </div>
+
+        <div class="event-card search-item">
+            <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=600" alt="AI Workshop">
+            <div class="event-info">
+                <h3>AI Workshop</h3>
+                <p>📅 10 Sep 2026</p>
+                <p>📍 Hyderabad</p>
+                <p>Hands-on Artificial Intelligence Workshop.</p>
+                <a href="register.html" class="card-btn">Register Now</a>
+            </div>
+        </div>
+
+        <div class="event-card search-item">
+            <img src="https://images.unsplash.com/photo-1511578314322-379afb476865?w=600" alt="Startup Summit">
+            <div class="event-info">
+                <h3>Startup Summit</h3>
+                <p>📅 18 Sep 2026</p>
+                <p>📍 Pune</p>
+                <p>Meet investors, founders, and entrepreneurs.</p>
+                <a href="register.html" class="card-btn">Register Now</a>
+            </div>
+        </div>
+
+        <div class="event-card search-item">
+            <img src="https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=600" alt="Hackathon">
+            <div class="event-info">
+                <h3>National Hackathon</h3>
+                <p>📅 02 Oct 2026</p>
+                <p>📍 Chennai</p>
+                <p>24-Hour Coding Competition.</p>
+                <a href="register.html" class="card-btn">Register Now</a>
+            </div>
+        </div>
+
+        <div class="event-card search-item">
+            <img src="https://images.unsplash.com/photo-1505373877841-8d25f7d46678?w=600" alt="Business Conference">
+            <div class="event-info">
+                <h3>Business Conference</h3>
+                <p>📅 15 Oct 2026</p>
+                <p>📍 Delhi</p>
+                <p>Business networking and growth strategies.</p>
+                <a href="register.html" class="card-btn">Register Now</a>
+            </div>
+        </div>
+
+        <div class="event-card search-item">
+            <img src="https://images.unsplash.com/photo-1517457373958-b7bdd4587205?w=600" alt="Cultural Fest">
+            <div class="event-info">
+                <h3>Cultural Fest</h3>
+                <p>📅 28 Oct 2026</p>
+                <p>📍 Mysore</p>
+                <p>Dance, Music, Art and Cultural Celebrations.</p>
+                <a href="register.html" class="card-btn">Register Now</a>
+            </div>
+        </div>
+
+        <div class="event-card search-item">
+            <img src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?w=600" alt="Career Fair">
+            <div class="event-info">
+                <h3>Career Fair</h3>
+                <p>📅 10 Nov 2026</p>
+                <p>📍 Bengaluru</p>
+                <p>Meet recruiters and explore job opportunities.</p>
+                <a href="register.html" class="card-btn">Register Now</a>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Categories -->
+    <section class="categories">
+
+        <h2>Event Categories</h2>
+
+        <div class="category-grid">
+
+            <div class="category-card">
+                <i class="fas fa-laptop-code"></i>
+                <h3>Technology</h3>
+            </div>
+
+            <div class="category-card">
+                <i class="fas fa-music"></i>
+                <h3>Music</h3>
+            </div>
+
+            <div class="category-card">
+                <i class="fas fa-briefcase"></i>
+                <h3>Business</h3>
+            </div>
+
+            <div class="category-card">
+                <i class="fas fa-users"></i>
+                <h3>Networking</h3>
+            </div>
+
+            <div class="category-card">
+                <i class="fas fa-palette"></i>
+                <h3>Cultural</h3>
+            </div>
+
+            <div class="category-card">
+                <i class="fas fa-graduation-cap"></i>
+                <h3>Education</h3>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Footer -->
+    <footer>
+
+        <div class="footer-content">
+
+            <div>
+                <h3>Eventara</h3>
+                <p>Smart Event Management Platform</p>
+            </div>
+
+            <div>
+                <h3>Quick Links</h3>
+                <p><a href="index.html">Home</a></p>
+                <p><a href="events.html">Events</a></p>
+                <p><a href="register.html">Register</a></p>
+                <p><a href="contact.html">Contact</a></p>
+            </div>
+
+            <div>
+                <h3>Follow Us</h3>
+                <div class="social-icons">
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-linkedin"></i>
+                    <i class="fab fa-twitter"></i>
+                </div>
+            </div>
+
+        </div>
+
+        <p class="copyright">
+            © 2026 Eventara. All Rights Reserved.
+        </p>
+
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

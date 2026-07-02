@@ -126,7 +126,3 @@ This project helped in developing practical skills in:
 This project is created for educational and internship purposes.
 
 Feel free to use and modify it for learning and personal projects.
-
----
-
-⭐ If you found this project useful, consider giving it a star on GitHub.

@@ -6,8 +6,6 @@ Eventara is a modern and responsive Event Management Website designed to help us
 
 This project demonstrates front-end web development skills using HTML, CSS, and JavaScript while focusing on responsive design and user-friendly interaction.
 
----
-
 ## 🚀 Features
 
 ### 🏠 Home Page
@@ -52,8 +50,6 @@ This project demonstrates front-end web development skills using HTML, CSS, and 
 * Smooth Animations
 * Mobile-Friendly Layout
 
----
-
 ## 🛠️ Technologies Used
 
 * HTML5
@@ -75,23 +71,19 @@ Eventara/
 ├── contact.html
 ├── style.css
 └── script.js
-```
-
----
 
 ## ⚙️ Installation and Setup
 
 ### 1. Clone the Repository
 
-```bash
+bash
 git clone https://github.com/your-username/eventara.git
-```
 
 ### 2. Open the Project Folder
 
-```bash
+bash
 cd eventara
-```
+
 
 ### 3. Run the Project
 
@@ -106,8 +98,6 @@ Use Visual Studio Code with the Live Server extension:
 3. Right-click on `index.html`
 4. Select **Open with Live Server**
 
----
-
 ## 🎯 Learning Outcomes
 
 This project helped in developing practical skills in:
@@ -120,8 +110,6 @@ This project helped in developing practical skills in:
 * User Interface Design
 * Multi-Page Website Development
 
----
-
 ## 🔮 Future Enhancements
 
 * User Authentication System
@@ -132,19 +120,6 @@ This project helped in developing practical skills in:
 * Payment Gateway Support
 * Event Image Gallery
 * AI-Based Event Recommendations
-
----
-
-## 📸 Screenshots
-
-Add screenshots of:
-
-* Home Page
-* Events Page
-* Registration Page
-* Contact Page
-
----
 
 ## 📜 License
 
